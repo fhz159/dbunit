@@ -34,7 +34,8 @@ private  Userservice userservice;
       User user=new User();
       user.setId(1);
       user.setName("张三");
-      user.setPassword("222");
+      user.setPassword("333");
+
       userservice.insert(user);
       Assert.assertEquals("张三",user.getName());
 
